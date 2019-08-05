@@ -1,0 +1,199 @@
+
+body{
+	margin:0;
+	font-family:Montserrat;
+	background:#232323;
+}
+#siteTitle{
+	width: 100%;
+	text-align:center;
+	background: #232323;
+	color:white;
+	display:inline-flex;     /*Know This*/
+	align-items: center;     /*Know This*/
+	justify-content: center; /*Know This*/
+	height:100px;
+}
+#numberOptions{
+	width:100%;
+	background: steelblue;
+	color:white;
+	font-weight: 700;
+	border-bottom:5px solid black;
+	height:100%;
+}
+#numberOptions ul{
+	list-style: none;
+	padding-left:0;
+    display:inline-flex;     /*Know This*/
+	align-items: center;     /*Know This*/
+	justify-content: center; /*Know This*/
+	width:100%;
+	margin-top:0;
+	margin-bottom:0;
+	height:70px;
+}
+#numberOptions ul li{
+	margin-left:auto;
+	margin-right: auto;
+	height:100%;
+	display:inline-flex;      /*Know This*/
+	align-items: center;	  /*Know This*/
+	justify-content: center;  /*Know This*/
+}
+.individualOptions{
+	transition:0.5s;
+}
+.individualOptions:hover{
+	background:white;
+	color:steelblue;
+}
+#amountOptions{
+	width:100%;
+	background: steelblue;
+	color:white;
+	font-weight: 700;
+}
+#amountOptions ul{
+	list-style: none;
+	padding-left:0;
+	display:inline-flex;     /*Know This*/
+	align-items: center;     /*Know This*/
+	justify-content: center; /*Know This*/
+	width:100%;
+	margin-top:0;
+	margin-bottom:0;
+	height:60px;
+}
+#amountOptions ul li{
+	margin-left:auto;
+	margin-right:auto;
+	height:100%;
+	display:inline-flex;      /*Know This*/
+	align-items: center;	  /*Know This*/
+	justify-content: center;  /*Know This*/
+}
+.individualAmounts{
+	transition:0.5s;
+}
+.individualAmounts:hover{
+	background:white;
+	color:steelblue;
+}
+#container{
+	font-family:Permanent Marker;
+	color:white;
+	margin-top:30px;
+	width:70%;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	border: 10px solid brown;
+	background:green;
+}
+.initialDisplay{
+	text-align:center;
+	margin-top:7%;
+	font-size:20px;         
+}
+.initialDisplay input{
+	height:40px;
+	width:110px;
+	border:2px solid white;
+	background: green;
+	color:white;
+	font-family:Permanent Marker;
+}
+.initialDisplay input:hover{
+	color:green;
+	background: white;
+}
+.checkBox{
+	border:3px solid white;
+}
+.fa-check{
+	opacity: 0;
+}
+/*The Game Itself with Problems*/
+.levelTitle{
+	text-align: center;
+	display:none;
+}
+.levelTitle span{
+	border-bottom:2px solid white;
+}
+.levelTitle button{
+	font-family: Permanent Marker;
+	background:green;
+	border: 3px solid white;
+	color:white;
+	padding-left:auto;
+	padding-right:auto;
+}
+.individualProblems{
+	float:left;
+	text-align:center;
+	height: 28%;
+	display:none;
+}
+.individualProblems hr{
+	width:50%;
+}
+.individualProblems input{
+	font-family:Permanent Marker;
+	width:50%;
+	background: green;
+	border:3px solid white;
+	border-radius: 50px;
+	height:15%;
+	text-align:center;
+	color:white;
+}
+#restartButton:hover{
+	background:white;
+	color:green;
+}
+#finishButton:hover{
+	background:white;
+	color:green;
+}
+#quitButton:hover{
+	background:white;
+	color:green;
+}
+#viewResults:hover{
+	background:white;
+	color:green;
+}
+#viewProblemSet:hover{
+	background:white;
+	color:green;
+}
+/*Table Properties*/
+table{
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	border:3px solid white;
+	height:300px;
+	margin-top:80px;
+	border-collapse: collapse;
+}
+#mainTableHeader{
+	background:black;
+}
+th{
+	background:gray;
+}
+td{
+	background:green;
+}
+/*Random Classes For Adding and Removing*/
+.displayNone{
+	display:none;
+}
+.hoverEffect{
+	color:steelblue;
+	background:white;
+}

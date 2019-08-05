@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiplication Site</title>
+	<link rel="stylesheet" type="text/css" href="multiplicationSite.css">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<!-- Link/CDN for Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+	<header id="siteTitle">
+		<h1>Multiplication Site</h1>
+	</header>
+<!-- Choose What Number To Multiply -->
+	<nav id="numberOptions">
+		<ul>
+			<li class="unselectOptions">Pick a Number:</li>
+			<li class="individualOptions">1's <br> Multiplication</li>
+			<li class="individualOptions">2's <br> Multiplication</li>
+			<li class="individualOptions">3's <br> Multiplication</li>
+			<li class="individualOptions">4's <br> Multiplication</li>
+			<li class="individualOptions">5's <br> Multiplication</li>
+			<li class="individualOptions">6's <br> Multiplication</li>
+			<li class="individualOptions">7's <br> Multiplication</li>
+			<li class="individualOptions">8's <br> Multiplication</li>
+			<li class="individualOptions">9's <br> Multiplication</li>
+			<li class="individualOptions">10's <br> Multiplication</li>
+			<li class="individualOptions">11's <br> Multiplication</li>
+			<li class="individualOptions">12's <br> Multiplication</li>
+		</ul>
+	</nav>
+<!-- Choose How Many Questions You Want -->
+	<nav id="amountOptions">
+		<ul>
+			<li class="unselectOptions">Amount of Questions:</li>
+			<li class="individualAmounts">10 Questions</li>
+			<li class="individualAmounts">15 Questions</li>
+			<li class="individualAmounts">20 Questions</li>
+			<li class="individualAmounts">25 Questions</li>
+			<li class="individualAmounts">30 Questions</li>
+		</ul>
+	</nav>
+<!-- Container That Will Display Game -->
+	<div id="container">
+<!-- This Displays Initial Messages, Button, etc. -->
+		<p class="initialDisplay">Welcome!</p>
+		<p class="initialDisplay">1) Please Select A Number <span class="checkBox"><i class="fas fa-check"></i></span></p>
+		<p class="initialDisplay">2) Please Select The Amount Of Questions You Want <span class="checkBox"><i class="fas fa-check"></i></span></p>
+		<p class="initialDisplay"><input type="Submit" value="Can't Proceed!" disabled></p>
+<!-- This Displays Title and Problems Themselves -->
+		<p class="levelTitle"><span><span class="chosenOptions">1's Multiplication</span> - <span class="chosenOptions">20 Questions</span></span></p>
+		<p class="levelTitle">
+			<button id="restartButton">Restart</button>
+			<button id="viewResults" class="displayNone">View Results</button>
+			<button id="viewProblemSet" class="displayNone">Back To Problems</button>
+			<button id="finishButton">Finish</button>
+			<button id="quitButton">Quit</button>
+		</p>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<div class="individualProblems">
+			<div class="randomNumber">1</div>
+			<div>X <span class="mainNumber">10</span></div>
+			<hr>
+			<input class="inputValues" type="text" maxlength="3" style="font-size:25px">
+		</div>
+		<table id="tableResults" class="displayNone">
+			<tr>
+				<th colspan="3" id="mainTableHeader">Results</th>
+			</tr>
+			<tr>
+				<th>Correct Problems</th>
+				<th>Percentage</th>
+				<th>Letter Grade</th>
+			</tr>
+			<tr>
+				<td><span class="tableContents">-</span>/<span class="tableContents">-</span></td>
+				<td><span class="tableContents">-</span>%</td>
+				<td><span class="tableContents">-</span></td>
+			</tr>
+			<tr>
+				<th colspan="3">Comments/Concerns</th>
+			</tr>
+			<tr>
+				<td colspan="3"><span class="tableContents">-</span></td>
+			</tr>
+		</table>
+	</div>
+
+	<script type="text/javascript" src="multiplicationSite.js"></script>
+</body>
+</html>
