@@ -12,7 +12,7 @@
 
 ![1a](images/screenThree.png)
 
-<p>When the user clicks the begin button this they will see something similar to this depending on what number/question amount they choose</p>
+<p>When the user clicks the begin button they will see something similar to this depending on what number/question amount they choose</p>
 
 ![1a](images/screenFour.png)
 
